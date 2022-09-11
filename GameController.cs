@@ -59,8 +59,6 @@ public class GameController : MonoBehaviour
         foreach (string stat in localkeys)
         {
             statusdictionary[stat]=PlayerPrefs.GetInt(stat);
-            string s=string.Format("{0}에 {1} 로드",stat,statusdictionary[stat]);
-            Debug.Log(s);
         }
     }
 
